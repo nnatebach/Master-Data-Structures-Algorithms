@@ -25,15 +25,15 @@ Depending on your requirements, you can choose a suitable data structure.<br>
 <br>
 Different types of data structures<br>
 - Physical: How the data is arranged in the memory<br>
-  * Arrays<br>
-  * Matrices<br>
-  * Linked List<br>
+    * Arrays<br>
+    * Matrices<br>
+    * Linked List<br>
 - Logical: How the data can be utilized, how the arrangement is and how it should be utilized<br>
-  * Stack<br>
-  * Queues<br>
-  * Trees<br>
-  * Graph<br>
-  * Hashing<br>
+    * Stack<br>
+    * Queues<br>
+    * Trees<br>
+    * Graph<br>
+    * Hashing<br>
 <br>
 Question 3: Why study data structures?<br>
   - First, data structure is the core subject for programmers or I.T. profession and for any under/graduates who are pursuing the engineering goals.<br>

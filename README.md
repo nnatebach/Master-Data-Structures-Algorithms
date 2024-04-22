@@ -24,11 +24,11 @@ Depending on the requirements of the program, the type of procedures it is perfo
 Depending on your requirements, you can choose a suitable data structure.<br>
 <br>
 Different types of data structures<br>
-- Physical: How the data is arranged in the memory<br>
+> - Physical: How the data is arranged in the memory<br>
 &nbsp; * Arrays<br>
 &nbsp; * Matrices<br>
 &nbsp; * Linked List<br>
-- Logical: How the data can be utilized, how the arrangement is and how it should be utilized<br>
+> - Logical: How the data can be utilized, how the arrangement is and how it should be utilized<br>
 &nbsp; * Stack<br>
 &nbsp; * Queues<br>
 &nbsp; * Trees<br>

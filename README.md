@@ -24,16 +24,16 @@ Depending on the requirements of the program, the type of procedures it is perfo
 Depending on your requirements, you can choose a suitable data structure.<br>
 <br>
 Different types of data structures<br>
-> - Physical: How the data is arranged in the memory<br>
-&nbsp; * Arrays<br>
-&nbsp; * Matrices<br>
-&nbsp; * Linked List<br>
-> - Logical: How the data can be utilized, how the arrangement is and how it should be utilized<br>
-&nbsp; * Stack<br>
-&nbsp; * Queues<br>
-&nbsp; * Trees<br>
-&nbsp; * Graph<br>
-&nbsp; * Hashing<br>
+&nbsp;- Physical: How the data is arranged in the memory<br>
+&nbsp;&nbsp; * Arrays<br>
+&nbsp;&nbsp; * Matrices<br>
+&nbsp;&nbsp; * Linked List<br>
+&nbsp;- Logical: How the data can be utilized, how the arrangement is and how it should be utilized<br>
+&nbsp;&nbsp; * Stack<br>
+&nbsp;&nbsp; * Queues<br>
+&nbsp;&nbsp; * Trees<br>
+&nbsp;&nbsp; * Graph<br>
+&nbsp;&nbsp; * Hashing<br>
 <br>
 Question 3: Why study data structures?<br>
   - First, data structure is the core subject for programmers or I.T. profession and for any under/graduates who are pursuing the engineering goals.<br>

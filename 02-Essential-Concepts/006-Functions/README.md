@@ -1,6 +1,6 @@
 ### LESSON CONTENT - FUNCTIONS
 #### 1. What are functions
-#### 2. Paramater passing
+#### 2. Parameter passing
 ##### - Pass by Value (C language)
 ##### - Pass by Address (C language)
 ##### - Pass by Reference (C++ language)
@@ -172,3 +172,80 @@
                 
         **Note:** *main* and *add* functions cannot access the variables of each other's.<br>
         => function *main* does not have access to variable "a", "b", "c" and function *add* does not have access to variable "x", "y", "z".
+
+### LESSON CONTENT - PARAMETERS PASSING METHODS
+#### 1. Pass by value (a.k.a. call by value)
+#### 2. Call by address
+
+======================
+
+#### Full code
+```
+#include <iostream>
+
+using namespace std;
+
+void swap(int x, int y)
+{
+    int temp;
+    temp = x;
+    x = y;
+    y = temp;
+}
+
+int main () {
+    int a, b;
+    a = 10;
+    b = 20;
+    swap(a, b);
+    printf("%d %d", a, b);
+}
+```
+
+#### What happened inside stack memory?
+- Pass by value
+    - When to use it?
+        - When you don't have to modify *actual parameters*.
+        - When the function is returning some results.
+        - When adding 2 numbers.
+    - When **not** to use it
+        - **swap** function.
+
+    - **swap** function
+        - the activation record will be created when the function is called and it will be deleted when the function ends.
+        - the **swap** function will *not return* anything because we are using *void* type for it.
+        - Pass by Value:
+            - *actual parameters* "a", "b" are *formal parameters* "x", "y".
+            - *formal parameters* "x", "y", "temp" are modified as the **swap** function happened following the code below
+    
+                ```
+                temp = x;
+                x = y;
+                y = temp;
+                ```
+                old values:
+                ```
+                x = 10;
+                y = 20;
+                temp = (no value);
+                ```
+                new values (after **swap**)
+                ```
+                x = 20;
+                y = 10;
+                temp = 10;
+                ```
+    
+                but the *actual parameters* "a", "b" remain the same.<br>
+    
+            => In "Pass by Value", any changes are done to *formal parameters* **will not reflect** in *actual parameters*.
+    **=> **swap** function should not be written using "Pass by Value".**
+
+- Call-by-address:
+    - Definition:
+        - *formal parameters* MUST be pointers.
+        - The addresses of *actual parameters* are passed to *formal parameters*.
+        - Any changes done inside the function will modify *actual parameters*.
+    - How to write *"Call by Address"*? *Call by Address* uses pointers.
+    - How it works?
+    
